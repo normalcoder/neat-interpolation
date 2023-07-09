@@ -33,7 +33,7 @@ import Data.Functor.Identity as Exports
 import Data.Int as Exports
 import Data.IORef as Exports
 import Data.Ix as Exports
-import Data.List as Exports hiding (sortOn, isSubsequenceOf, uncons, concat, foldr, foldl1, maximum, minimum, product, sum, all, and, any, concatMap, elem, foldl, foldr1, notElem, or, find, maximumBy, minimumBy, mapAccumL, mapAccumR, foldl')
+import Data.List as Exports hiding (sortOn, isSubsequenceOf, uncons, concat, foldr, foldl1, maximum, minimum, product, sum, all, and, any, concatMap, elem, foldl, foldr1, notElem, or, find, maximumBy, minimumBy, mapAccumL, mapAccumR, foldl', unzip)
 import Data.Maybe as Exports
 import Data.Monoid as Exports hiding (Last(..), First(..), (<>))
 import Data.Ord as Exports
@@ -58,7 +58,7 @@ import GHC.Exts as Exports (lazy, inline, sortWith, groupWith, IsList(..))
 import GHC.Generics as Exports (Generic, Generic1)
 import GHC.IO.Exception as Exports
 import Numeric as Exports
-import Prelude as Exports hiding (fail, concat, foldr, mapM_, sequence_, foldl1, maximum, minimum, product, sum, all, and, any, concatMap, elem, foldl, foldr1, notElem, or, mapM, sequence, id, (.))
+import Prelude as Exports hiding (fail, concat, foldr, mapM_, sequence_, foldl1, maximum, minimum, product, sum, all, and, any, concatMap, elem, foldl, foldr1, notElem, or, mapM, sequence, id, (.), unzip)
 import System.Environment as Exports
 import System.Exit as Exports
 import System.IO as Exports
